@@ -1,11 +1,20 @@
 import type { NextPage } from "next";
+import Navbar from "../components/navbar"
+import Hero from "../components/hero"
+import Team from "../components/team"
+import Gallery from "../components/gallery"
+import { Box, Container } from "@chakra-ui/react";
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <h1>Hello, World!</h1>
-      <h2>Hi, There buddy!</h2>
-    </div>
+    <Box>
+      <Container pt='15px' maxWidth='1280px'>
+      <Navbar/>
+      <Hero/>
+      <Gallery/>
+      <Team/>
+      </Container>
+    </Box>
   );
 };
 
