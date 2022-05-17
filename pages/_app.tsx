@@ -5,7 +5,7 @@ import Home from "./index";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider>
-        <Home />
+      <Component {...pageProps} />
     </ChakraProvider>
   );
 }
