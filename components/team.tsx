@@ -1,6 +1,5 @@
 
-import { ArrowForwardIcon } from '@chakra-ui/icons'
-import { Divider, Stack, Flex, Text, Box, Image } from '@chakra-ui/react'
+import { Box, Image, Center } from '@chakra-ui/react'
 import { Button, ButtonGroup } from '@chakra-ui/react'
 import { Heading } from '@chakra-ui/react'
 
@@ -9,13 +8,58 @@ const Team = () => {
     <div>
     <Box
         mt='4'
-        display='flex'
-        alignItems='center'
+        display='inline-flex'
         justifyContent='center'
+        alignItems={'center'}
         width='100%'
         >
     <Heading>Our team</Heading>
     </Box>
+    <Box
+      margin="auto"
+      mt='4'
+      display='block'
+      justifyContent='center'
+      alignItems={'center'}
+      width='100%'
+      >
+        <Center>
+        <Image
+        padding='10px'
+        boxSize="212px"
+        src="https://bit.ly/dan-abramov"
+        alt="Dan Abramov"
+      />
+      </Center>
+      <Center
+      fontWeight={'bold'}
+      >
+      <text>Name of team member</text>
+      </Center>
+      </Box>
+
+      <Box
+      margin="auto"
+      mt='4'
+      display='block'
+      justifyContent='center'
+      alignItems={'center'}
+      width='100%'
+      >
+        <Center>
+        <Image
+        padding='10px'
+        boxSize="212px"
+        src="https://bit.ly/dan-abramov"
+        alt="Dan Abramov"
+      />
+      </Center>
+      <Center
+      fontWeight={'bold'}
+      >
+      <text>Name of team member</text>
+      </Center>
+      </Box>
     </div>
   )
 }
