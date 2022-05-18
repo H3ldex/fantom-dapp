@@ -5,7 +5,9 @@ import { Heading } from '@chakra-ui/react'
 
 const Team = () => {
   return (
-    <div>
+    <div
+    id='teams'
+    >
     <Box
         mt='4'
         display='inline-flex'

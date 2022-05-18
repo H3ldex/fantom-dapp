@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Flex,
   IconButton,
@@ -11,7 +12,9 @@ import {
   HStack,
   useColorMode,
   Spacer,
+  Link
 } from "@chakra-ui/react";
+import NextLink from 'next/link';
 import { HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 const Navbar = () => {
@@ -29,9 +32,21 @@ const Navbar = () => {
             icon={<HamburgerIcon />}
           ></MenuButton>
           <MenuList>
-            <MenuItem>About</MenuItem>
-            <MenuItem>Roadmap</MenuItem>
-            <MenuItem>Team</MenuItem>
+            <MenuItem> 
+            <NextLink href='#about' passHref>
+              <Link>About</Link>
+          </NextLink>
+            </MenuItem>
+            <MenuItem> 
+            <NextLink href='#roadmap' passHref>
+              <Link>Roadmap</Link>
+          </NextLink>
+            </MenuItem>
+            <MenuItem> 
+            <NextLink href='teams' passHref>
+              <Link>Team</Link>
+          </NextLink>
+            </MenuItem>
           </MenuList>
         </Menu>
       </Box>

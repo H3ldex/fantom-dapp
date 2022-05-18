@@ -3,6 +3,7 @@ import Navbar from "../components/navbar"
 import Hero from "../components/hero"
 import Team from "../components/team"
 import Gallery from "../components/gallery"
+import Roadmap from "../components/roadmap"
 import { Box, Container } from "@chakra-ui/react";
 
 const Home: NextPage = () => {
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <Hero/>
       <Gallery/>
       <Team/>
+      <Roadmap/>
       </Container>
     </Box>
   );
