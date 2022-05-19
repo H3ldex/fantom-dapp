@@ -17,6 +17,8 @@ import {
 import NextLink from 'next/link';
 import { HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 
+import { ConnectButton } from '@rainbow-me/rainbowkit';
+
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
@@ -56,7 +58,7 @@ const Navbar = () => {
           <Button variant='ghost'>Team</Button>
       </HStack>
       <HStack spacing='15px'>
-        <Button>Connect Wallet</Button>
+        <Button as={ConnectButton} color='#000'>Connect Wallet</Button>
         <IconButton aria-label="Theme switcher" onClick={toggleColorMode}>
           {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
         </IconButton>
