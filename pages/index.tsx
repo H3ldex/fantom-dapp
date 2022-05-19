@@ -15,6 +15,7 @@ import {
   RainbowKitProvider,
 } from "@rainbow-me/rainbowkit";
 import { chain, createClient, WagmiProvider } from "wagmi";
+import { BlockExplorer } from "@wagmi/core/dist/declarations/src/constants";
 
 const operaChain: Chain = {
   id: 250,
@@ -29,13 +30,13 @@ const operaChain: Chain = {
   },
   blockExplorers: {
     default: { name: "FTMScan", url: "https://ftmscan.com/" },
-    ftmscan: { name: "FTMScan", url: "https://ftmscan.com/" },
+    etherscan: { name: "FTMScan", url: "https://ftmscan.com/" },
   },
   testnet: false,
 };
 
 const { chains, provider } = configureChains(
-  [chain.mainnet],
+  [chain.mainnet, operaChain],
   [
     apiProvider.alchemy(process.env.ALCHEMY_ID),
     apiProvider.jsonRpc((chain) => ({ rpcUrl: chain.rpcUrls.default })),
