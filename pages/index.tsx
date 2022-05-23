@@ -4,6 +4,7 @@ import Hero from "../components/hero";
 import Team from "../components/team";
 import Gallery from "../components/gallery";
 import Roadmap from "../components/roadmap";
+import About from "../components/about";
 import { Box, Container } from "@chakra-ui/react";
 
 import "@rainbow-me/rainbowkit/styles.css";
@@ -15,7 +16,6 @@ import {
   RainbowKitProvider,
 } from "@rainbow-me/rainbowkit";
 import { chain, createClient, WagmiProvider } from "wagmi";
-import { BlockExplorer } from "@wagmi/core/dist/declarations/src/constants";
 
 const operaChain: Chain = {
   id: 250,
@@ -63,8 +63,9 @@ const Home: NextPage = () => {
             <Navbar />
             <Hero />
             <Gallery />
-            <Team />
+            <About />
             <Roadmap />
+            <Team />
           </Container>
         </Box>
       </RainbowKitProvider>
