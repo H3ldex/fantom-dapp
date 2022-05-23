@@ -26,12 +26,7 @@ const Team = () => {
       width='100%'
       >
         <Center>
-        <Image
-        padding='10px'
-        boxSize="212px"
-        src="6.png"
-        alt="Team member 1"
-      />
+        <TeamImage url="6.png" altname='Team member1'/>
       </Center>
       <Center
       fontWeight={'bold'}
@@ -49,12 +44,7 @@ const Team = () => {
       width='100%'
       >
         <Center>
-        <Image
-        padding='10px'
-        boxSize="212px"
-        src="7.png"
-        alt="Team member 2"
-      />
+        <TeamImage url="7.png" altname='Team member2'/>
       </Center>
       <Center
       fontWeight={'bold'}
