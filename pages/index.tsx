@@ -64,19 +64,11 @@ const Home: NextPage = () => {
           <Container pt="15px" maxWidth="1280px">
             <Navbar />
             <Hero />
-            </Container>
-            <Divider sx={{ height: 1, width: 'auto' }} pb='12px' borderColor="black" orientation='horizontal'/>
           <Gallery />
-          <Divider sx={{ height: 1, width: 'auto' }} pb='12px' borderColor="black" orientation='horizontal'/>
-            <Container pt="15px" maxWidth="1280px">
             <About />
-            </Container>
             <Divider sx={{ height: 1, width: 'auto' }} pb='12px' borderColor="black" orientation='horizontal'/>
-            <Container pt="15px" maxWidth="1280px">
             <Roadmap />
-            </Container>
             <Divider sx={{ height: 1, width: 'auto' }} pb='12px' borderColor="black" orientation='horizontal'/>
-            <Container pt="15px" maxWidth="1280px">
             <Team />
             </Container>
           <Footer />
