@@ -3,19 +3,20 @@ import { Image } from "@chakra-ui/react";
 type imageProps = {
   url: string;
   altname: string;
+  rotation: string;
 };
 
 const GalleryImage = (props: imageProps) => {
   return (
     <Image
-      boxSize={{base: "80px", md: "180px"}}
-      display="inline-block"
+      boxSize="250px"
       objectFit={"cover"}
       src={props.url}
       alt={props.altname}
-      padding="5px"
-      height="100%"
-      max-width="auto"
+      border="8px"
+      borderRadius="lg"
+      boxShadow="dark-lg"
+      transform={props.rotation}
     />
   );
 };
