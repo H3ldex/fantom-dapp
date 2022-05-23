@@ -10,8 +10,8 @@ const Gallery = () => {
         boxSize="180px"
         display='inline-block'
         objectFit={'cover'}   
-        src="https://bit.ly/dan-abramov"
-        alt="Dan Abramov"
+        src="0.png"
+        alt="Punk NFT"
         padding='5px'
         height='100%'
       />
@@ -19,8 +19,8 @@ const Gallery = () => {
        boxSize="180px"
         display='inline-block'
         objectFit={'cover'}   
-        src="https://bit.ly/dan-abramov"
-        alt="Dan Abramov"
+        src="1.png"
+        alt="Punk NFT"
         padding='5px'
         height='100%'
       />
@@ -28,8 +28,8 @@ const Gallery = () => {
       boxSize="180px"
       display='inline-block'
         objectFit={'cover'}   
-        src="https://bit.ly/dan-abramov"
-        alt="Dan Abramov"
+        src="2.png"
+        alt="Punk NFT"
         padding='5px'
         height='100%'
       />
@@ -37,8 +37,8 @@ const Gallery = () => {
       boxSize="180px"
         display='inline-block'
         objectFit={'cover'}   
-        src="https://bit.ly/dan-abramov"
-        alt="Dan Abramov"
+        src="3.png"
+        alt="Punk NFT"
         padding='5px'
         height='100%'
       />
@@ -46,8 +46,8 @@ const Gallery = () => {
       boxSize="180px"
         display='inline-block'
         objectFit={'cover'}   
-        src="https://bit.ly/dan-abramov"
-        alt="Dan Abramov"
+        src="4.png"
+        alt="Punk NFT"
         padding='5px'
         height='100%'
       />
@@ -55,8 +55,8 @@ const Gallery = () => {
        boxSize="180px"
         display='inline-block'
         objectFit={'cover'}   
-        src="https://bit.ly/dan-abramov"
-        alt="Dan Abramov"
+        src="5.png"
+        alt="Punk NFT"
         padding='5px'
         height='100%'
       />
