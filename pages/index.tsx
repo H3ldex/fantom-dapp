@@ -7,6 +7,7 @@ import Roadmap from "../components/roadmap";
 import About from "../components/about";
 import Footer from "../components/footer";
 import { Box, Container } from "@chakra-ui/react";
+import rkTheme from "../themes/rkTheme"
 
 import "@rainbow-me/rainbowkit/styles.css";
 import {
@@ -58,7 +59,7 @@ const wagmiClient = createClient({
 const Home: NextPage = () => {
   return (
     <WagmiProvider client={wagmiClient}>
-      <RainbowKitProvider chains={chains}>
+      <RainbowKitProvider chains={chains} theme={rkTheme}>
         <Box bgColor='brand.100'>
           <Container pt="15px" maxWidth="1280px">
             <Navbar />
