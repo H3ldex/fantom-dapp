@@ -20,7 +20,6 @@ import { HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 const Navbar = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
   return (
     <Flex align="center" justify={"space-between"}>
       <Text fontSize='xl' textAlign="center" display={{ base: "none", md: "flex" }}>
@@ -59,9 +58,6 @@ const Navbar = () => {
       </HStack>
       <HStack spacing='15px'>
         <Button as={ConnectButton} color='#000'>Connect Wallet</Button>
-        <IconButton aria-label="Theme switcher" onClick={toggleColorMode}>
-          {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-        </IconButton>
       </HStack>
     </Flex>
   );
