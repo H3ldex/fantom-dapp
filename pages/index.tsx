@@ -63,12 +63,14 @@ const Home: NextPage = () => {
           <Container pt="15px" maxWidth="1280px">
             <Navbar />
             <Hero />
-            <Gallery />
+            </Container>
+          <Gallery />
+            <Container pt="15px" maxWidth="1280px">
             <About />
             <Roadmap />
             <Team />
-            <Footer />
-          </Container>
+            </Container>
+          <Footer />
         </Box>
       </RainbowKitProvider>
     </WagmiProvider>
