@@ -29,8 +29,8 @@ const Team = () => {
         <Image
         padding='10px'
         boxSize="212px"
-        src="https://bit.ly/dan-abramov"
-        alt="Dan Abramov"
+        src="6.png"
+        alt="Team member 1"
       />
       </Center>
       <Center
@@ -52,8 +52,8 @@ const Team = () => {
         <Image
         padding='10px'
         boxSize="212px"
-        src="https://bit.ly/dan-abramov"
-        alt="Dan Abramov"
+        src="7.png"
+        alt="Team member 2"
       />
       </Center>
       <Center
