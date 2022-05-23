@@ -1,5 +1,5 @@
 
-import { Box, Image, Center} from '@chakra-ui/react'
+import { Box, Image, Center, Stack} from '@chakra-ui/react'
 import { Heading } from '@chakra-ui/react'
 import TeamImage from "./teamImages";
 
@@ -17,6 +17,7 @@ const Team = () => {
         >
     <Heading>Our team</Heading>
     </Box>
+    <Stack flexDirection={{ base: 'column', md: 'row'}}>
     <Box
       margin="auto"
       mt='4'
@@ -52,6 +53,7 @@ const Team = () => {
       <text>Name of team member</text>
       </Center>
       </Box>
+      </Stack>
     </div>
   )
 }
