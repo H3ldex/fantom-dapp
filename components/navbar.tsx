@@ -10,12 +10,10 @@ import {
   Text,
   Box,
   HStack,
-  useColorMode,
-  Spacer,
   Link
 } from "@chakra-ui/react";
 import NextLink from 'next/link';
-import { HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
+import { HamburgerIcon } from "@chakra-ui/icons";
 
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
