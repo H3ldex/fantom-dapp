@@ -58,7 +58,7 @@ const Home: NextPage = () => {
   return (
     <WagmiProvider client={wagmiClient}>
       <RainbowKitProvider chains={chains}>
-        <Box>
+        <Box bgColor='brand.100'>
           <Container pt="15px" maxWidth="1280px">
             <Navbar />
             <Hero />
