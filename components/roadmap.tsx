@@ -9,6 +9,7 @@ import {
   Text,
   List,
 } from "@chakra-ui/react";
+import Popovercomp from "./popover";
 
 const Roadmap = () => {
   return (
@@ -27,6 +28,7 @@ const Roadmap = () => {
           mb={2}
         >
           <div>
+            <Center>
             <Text
               as="u"
               mt="1"
@@ -38,6 +40,7 @@ const Roadmap = () => {
               {" "}
               Roadmap
             </Text>
+            </Center>
             <div>
               <br></br>
               <Text
@@ -57,21 +60,26 @@ const Roadmap = () => {
                 alignItems="centre"
                 justifyContent={"center"}
                 textAlign="center"
+                mb="15px"
               >
-                <Text>One</Text>
-                <ArrowDownIcon />
+                <Popovercomp buttonName="Phase 1" headerName="The .. Phase" text="enter phase 1"
+                             left="10px" right="0px" />
+                <ArrowDownIcon fontSize={"30px"}/>
                 <br></br>
-                <Text>One</Text>
-                <ArrowDownIcon />
+                <Popovercomp buttonName="Phase 2" headerName="The .. Phase" text="enter phase 2"
+                left="10px" right="0px" />
+                <ArrowDownIcon fontSize={"30px"} />
                 <br></br>
-                <Text>One</Text>
-                <ArrowDownIcon />
+                <Popovercomp buttonName="Phase 3" headerName="The .. Phase" text="enter phase 3"
+                left="10px" right="0px" />
+                <ArrowDownIcon fontSize={"30px"}/>
                 <br></br>
-                <Text>One</Text>
-                <ArrowDownIcon />
+                <Popovercomp buttonName="Phase 4" headerName="The .. Phase" text="enter phase 4"
+                left="10px" right="0px" />
+                <ArrowDownIcon fontSize={"30px"}/>
                 <br></br>
-                <Text>One</Text>
-                <ArrowDownIcon />
+                <Popovercomp buttonName="Phase 5" headerName="The .. Phase" text="enter phase 5"
+                left="10px" right="0px" />
                 <br></br>
               </List>
             </div>
