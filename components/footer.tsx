@@ -41,7 +41,7 @@ const SocialButton = ({
 }) => {
   return (
     <chakra.button
-      bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
+      bg='#C3B1E1'
       rounded={'full'}
       w={8}
       h={8}
@@ -64,8 +64,8 @@ const SocialButton = ({
 export default function SmallWithLogoLeft() {
   return (
     <Box
-      bg={useColorModeValue('gray.50', 'gray.900')}
-      color={useColorModeValue('gray.700', 'gray.200')}>
+      bg='#CEBBED'
+      >
       <Container
         as={Stack}
         maxW={'6xl'}
