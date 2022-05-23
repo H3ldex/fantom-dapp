@@ -23,7 +23,6 @@ const Hero = () => {
       </Box>
       </Stack>
       <Stack direction='row' h='5px' mt='2px'>
-        <Divider sx={{ color: 'black', height: 1, width: '1280px' }} orientation='horizontal'/>
       </Stack>
     </div>
   );
