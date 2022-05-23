@@ -14,7 +14,7 @@ export const theme = extendTheme({
   },
   fonts: {
     heading: `"Permanent Marker", cursive`,
-    body: `"Neucha", cursive`,
+    body: `"Permanent Marker", cursive`,
   },
   fontSizes: {
     xs: "0.75rem",
