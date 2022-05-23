@@ -7,7 +7,6 @@ import {
   MenuList,
   MenuItem,
   Button,
-  Text,
   Box,
   HStack,
   Link,
@@ -60,23 +59,23 @@ const Navbar = () => {
         display={{ base: "none", md: "flex" }}
       >
         <Link as={NextLink} href="/#about">
-          <Button variant="ghost" as="a" cursor="pointer">
+          <Button variant="ghost" as="a" cursor="pointer" fontSize='20px'>
             About
           </Button>
         </Link>
         <Link as={NextLink} href="/#roadmap">
-          <Button variant="ghost" as="a" cursor="pointer">
+          <Button variant="ghost" as="a" cursor="pointer" fontSize='20px'>
             Roadmap
           </Button>
         </Link>
         <Link as={NextLink} href="/#teams">
-          <Button variant="ghost" as="a" cursor="pointer">
+          <Button variant="ghost" as="a" cursor="pointer" fontSize='20px'>
             Team
           </Button>
         </Link>
       </HStack>
       <HStack spacing="15px">
-        <Button as={ConnectButton} color="#000">
+        <Button as={ConnectButton}>
           Connect Wallet
         </Button>
       </HStack>
