@@ -5,8 +5,9 @@ import TeamImage from "./teamImages";
 
 const Team = () => {
   return (
-    <div
+    <Box
     id='teams'
+    mb='25px'
     >
     <Box
         mt='4'
@@ -53,7 +54,7 @@ const Team = () => {
       </Center>
       </Box>
       </Stack>
-    </div>
+    </Box>
   )
 }
 
