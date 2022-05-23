@@ -1,7 +1,7 @@
 
-import { Box, Image, Center } from '@chakra-ui/react'
-import { Button, ButtonGroup } from '@chakra-ui/react'
+import { Box, Image, Center} from '@chakra-ui/react'
 import { Heading } from '@chakra-ui/react'
+import TeamImage from "./teamImages";
 
 const Team = () => {
   return (
@@ -26,12 +26,7 @@ const Team = () => {
       width='100%'
       >
         <Center>
-        <Image
-        padding='10px'
-        boxSize="212px"
-        src="https://bit.ly/dan-abramov"
-        alt="Dan Abramov"
-      />
+        <TeamImage url="6.png" altname='Punk6 NFT'/>
       </Center>
       <Center
       fontWeight={'bold'}
@@ -49,12 +44,7 @@ const Team = () => {
       width='100%'
       >
         <Center>
-        <Image
-        padding='10px'
-        boxSize="212px"
-        src="https://bit.ly/dan-abramov"
-        alt="Dan Abramov"
-      />
+        <TeamImage url="7.png" altname='Punk7 NFT'/>
       </Center>
       <Center
       fontWeight={'bold'}
