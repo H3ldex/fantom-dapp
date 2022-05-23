@@ -10,24 +10,24 @@ import {
   Text,
   Box,
   HStack,
-  Link
+  Link,
 } from "@chakra-ui/react";
-import NextLink from 'next/link';
+import NextLink from "next/link";
 import { HamburgerIcon } from "@chakra-ui/icons";
 
-import { ConnectButton } from '@rainbow-me/rainbowkit';
-import {Image} from "@chakra-ui/react";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
+import { Image } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
     <Flex align="center" justify={"space-between"}>
       <Image
-      borderRadius='full'
-      boxSize='80px'
-      src='0.png'
-    alt='logo'
-  display={{ base: "none", md: "flex" }}
-   />
+        borderRadius="full"
+        boxSize="80px"
+        src="0.png"
+        alt="logo"
+        display={{ base: "none", md: "flex" }}
+      />
       <Box display={{ base: "flex", md: "none" }}>
         <Menu>
           <MenuButton
@@ -36,31 +36,49 @@ const Navbar = () => {
             icon={<HamburgerIcon />}
           ></MenuButton>
           <MenuList>
-            <MenuItem> 
-            <NextLink href='#about' passHref>
-              <Link>About</Link>
-          </NextLink>
+            <MenuItem>
+              <Link as={NextLink} href="/#about" scroll={false}>
+                About
+              </Link>
             </MenuItem>
-            <MenuItem> 
-            <NextLink href='#roadmap' passHref>
-              <Link>Roadmap</Link>
-          </NextLink>
+            <MenuItem>
+              <Link as={NextLink} href="/#roadmap" scroll={false}>
+                Roadmap
+              </Link>
             </MenuItem>
-            <MenuItem> 
-            <NextLink href='teams' passHref>
-              <Link>Team</Link>
-          </NextLink>
+            <MenuItem>
+              <Link as={NextLink} href="/#teams" scroll={false}>
+                Team
+              </Link>
             </MenuItem>
           </MenuList>
         </Menu>
       </Box>
-      <HStack spacing='100px' justify={"space-between"} display={{base: 'none', md:'flex'}} >
-          <Button variant='ghost'>About</Button>
-          <Button variant='ghost'>Roadmap</Button>
-          <Button variant='ghost'>Team</Button>
+      <HStack
+        spacing="100px"
+        justify={"space-between"}
+        display={{ base: "none", md: "flex" }}
+      >
+        <Link as={NextLink} href="/#about" scroll={false}>
+          <Button variant="ghost" as="a" cursor="pointer">
+            About
+          </Button>
+        </Link>
+        <Link as={NextLink} href="/#roadmap" scroll={false}>
+          <Button variant="ghost" as="a" cursor="pointer">
+            Roadmap
+          </Button>
+        </Link>
+        <Link as={NextLink} href="/#teams" scroll={false}>
+          <Button variant="ghost" as="a" cursor="pointer">
+            Team
+          </Button>
+        </Link>
       </HStack>
-      <HStack spacing='15px'>
-        <Button as={ConnectButton} color='#000'>Connect Wallet</Button>
+      <HStack spacing="15px">
+        <Button as={ConnectButton} color="#000">
+          Connect Wallet
+        </Button>
       </HStack>
     </Flex>
   );
