@@ -37,17 +37,17 @@ const Navbar = () => {
           ></MenuButton>
           <MenuList>
             <MenuItem>
-              <Link as={NextLink} href="/#about" scroll={false}>
+              <Link as={NextLink} href="/#about">
                 About
               </Link>
             </MenuItem>
             <MenuItem>
-              <Link as={NextLink} href="/#roadmap" scroll={false}>
+              <Link as={NextLink} href="/#roadmap">
                 Roadmap
               </Link>
             </MenuItem>
             <MenuItem>
-              <Link as={NextLink} href="/#teams" scroll={false}>
+              <Link as={NextLink} href="/#teams">
                 Team
               </Link>
             </MenuItem>
@@ -59,17 +59,17 @@ const Navbar = () => {
         justify={"space-between"}
         display={{ base: "none", md: "flex" }}
       >
-        <Link as={NextLink} href="/#about" scroll={false}>
+        <Link as={NextLink} href="/#about">
           <Button variant="ghost" as="a" cursor="pointer">
             About
           </Button>
         </Link>
-        <Link as={NextLink} href="/#roadmap" scroll={false}>
+        <Link as={NextLink} href="/#roadmap">
           <Button variant="ghost" as="a" cursor="pointer">
             Roadmap
           </Button>
         </Link>
-        <Link as={NextLink} href="/#teams" scroll={false}>
+        <Link as={NextLink} href="/#teams">
           <Button variant="ghost" as="a" cursor="pointer">
             Team
           </Button>
