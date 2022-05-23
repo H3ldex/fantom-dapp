@@ -1,7 +1,8 @@
-
+import {Text} from "@chakra-ui/react";
 const About = () => {
     return (
-      <div>About</div>
+      <div>
+          <Text align="center" > About</Text></div>
     )
   }
   

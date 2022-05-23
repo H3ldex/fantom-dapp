@@ -17,10 +17,9 @@ const Team = () => {
         >
     <Heading>Our team</Heading>
     </Box>
-    <Stack flexDirection={{ base: 'column', md: 'row'}}>
+    <Stack flexDirection={{ base: 'column', md: 'row'}} mt={{ base: '4', md: '8'}}>
     <Box
       margin="auto"
-      mt='4'
       display='block'
       justifyContent='center'
       alignItems={'center'}
@@ -38,11 +37,11 @@ const Team = () => {
 
       <Box
       margin="auto"
-      mt='4'
       display='block'
       justifyContent='center'
       alignItems={'center'}
       width='100%'
+      mb={'4'}
       >
         <Center>
         <TeamImage url="7.png" altname='Team member2'/>

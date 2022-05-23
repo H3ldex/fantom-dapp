@@ -5,6 +5,7 @@ import Team from "../components/team";
 import Gallery from "../components/gallery";
 import Roadmap from "../components/roadmap";
 import About from "../components/about";
+import Footer from "../components/footer";
 import { Box, Container } from "@chakra-ui/react";
 
 import "@rainbow-me/rainbowkit/styles.css";
@@ -66,6 +67,7 @@ const Home: NextPage = () => {
             <About />
             <Roadmap />
             <Team />
+            <Footer />
           </Container>
         </Box>
       </RainbowKitProvider>
