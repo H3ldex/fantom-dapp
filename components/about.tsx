@@ -1,7 +1,7 @@
 import { Heading, Box, Text } from '@chakra-ui/react'
 const About = () => {
     return (
-      <div>
+      <div id="about">
           <Box
         mt='4'
         display='inline-flex'
