@@ -26,7 +26,12 @@ const Team = () => {
       width='100%'
       >
         <Center>
-        <TeamImage url="6.png" altname='Punk6 NFT'/>
+        <Image
+        padding='10px'
+        boxSize="212px"
+        src="6.png"
+        alt="Team member 1"
+      />
       </Center>
       <Center
       fontWeight={'bold'}
@@ -44,7 +49,12 @@ const Team = () => {
       width='100%'
       >
         <Center>
-        <TeamImage url="7.png" altname='Punk7 NFT'/>
+        <Image
+        padding='10px'
+        boxSize="212px"
+        src="7.png"
+        alt="Team member 2"
+      />
       </Center>
       <Center
       fontWeight={'bold'}
