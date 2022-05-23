@@ -7,7 +7,7 @@ const rkTheme: Theme = {
     actionButtonBorder: '##c3b1e1',
     actionButtonBorderMobile: '...',
     actionButtonSecondaryBackground: '...',
-    closeButton: '...',
+    closeButton: '#ffffff',
     closeButtonBackground: '...',
     connectButtonBackground: '...',
     connectButtonBackgroundError: '...',

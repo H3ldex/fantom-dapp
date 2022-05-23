@@ -6,8 +6,8 @@ import Gallery from "../components/gallery";
 import Roadmap from "../components/roadmap";
 import About from "../components/about";
 import Footer from "../components/footer";
-import { Box, Container } from "@chakra-ui/react";
-import rkTheme from "../themes/rkTheme"
+import { Box, Container, Divider } from "@chakra-ui/react";
+import rkTheme from "../themes/rkTheme";
 
 import "@rainbow-me/rainbowkit/styles.css";
 import {
@@ -65,7 +65,9 @@ const Home: NextPage = () => {
             <Navbar />
             <Hero />
             </Container>
+            <Divider sx={{ height: 1, width: 'auto' }} pb='12px' borderColor="black" orientation='horizontal'/>
           <Gallery />
+          <Divider sx={{ height: 1, width: 'auto' }} pb='12px' borderColor="black" orientation='horizontal'/>
             <Container pt="15px" maxWidth="1280px">
             <About />
             <Roadmap />

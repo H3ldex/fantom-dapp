@@ -5,6 +5,7 @@ const Gallery = () => {
   return (
     <div>
       <Flex
+      pt='20px'
       flexDirection='row'
         direction="row"
         overflow={"hidden"}
