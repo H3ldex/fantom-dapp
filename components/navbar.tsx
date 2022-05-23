@@ -16,13 +16,18 @@ import NextLink from 'next/link';
 import { HamburgerIcon } from "@chakra-ui/icons";
 
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import {Image} from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
     <Flex align="center" justify={"space-between"}>
-      <Text fontSize='xl' textAlign="center" display={{ base: "none", md: "flex" }}>
-        Logo Here
-      </Text>
+      <Image
+      borderRadius='full'
+      boxSize='80px'
+      src='0.png'
+    alt='logo'
+  display={{ base: "none", md: "flex" }}
+   />
       <Box display={{ base: "flex", md: "none" }}>
         <Menu>
           <MenuButton
