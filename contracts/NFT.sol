@@ -1,10 +1,9 @@
 //SPDX-License-Identifier: MIT
-
-// SPDX-License-Identifier: SEE LICENSE IN LICENSE
 pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
+import "@openzepplin/contract/interface/library/struct/enum/constant/function";
 
 
 contract NFT is Ownable, ERC721Enumerable {
@@ -13,7 +12,7 @@ contract NFT is Ownable, ERC721Enumerable {
     uint256 maxSupply;
     bool isSalePublic;
     string baseTokenURI;
-    bool isHidden;
+    bool revealed;
     string notRevealedUri;
 
 
@@ -52,7 +51,7 @@ contract NFT is Ownable, ERC721Enumerable {
   {
     require(
       _exists(tokenId),
-      "ERC721Metadata: URI query for nonexistent token"
+      "ERC721Metadata: URI query for nonexistent token";
     );
 
     if(revealed == false) {
@@ -68,17 +67,6 @@ contract NFT is Ownable, ERC721Enumerable {
     function setRevealed(bool _revealed) external onlyOwner
     {
         revealed = _revealed;
-    }
-
-
-     }
-
-     function tokenURI(uint256 _tokenId) public view override returns (string memory) {
-          require(_exists(_tokenId), "ERC721Metadata: URI query for nonexistent token");
-          return string(abi.encodePacked(baseTokenUri, _tokenId.toString(), ".json"));
-     }
-
-
 
     function mint() payable external {
         require(isSalePublic == true);
