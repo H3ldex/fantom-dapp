@@ -10,7 +10,7 @@ const Gallery = () => {
         mt="20px"
         mb="20px"
       >
-        <GalleryImage url="0.png" altname="Punk0 NFT" rotation="rotate(5deg)" />
+        <GalleryImage url="0.png" altname="Logo" rotation="rotate(5deg)" />
         <Spacer />
         <GalleryImage
           url="1.png"

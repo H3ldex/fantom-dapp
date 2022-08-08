@@ -46,7 +46,7 @@ const { chains, provider } = configureChains(
 );
 
 const { connectors } = getDefaultWallets({
-  appName: "Fantom Dapp",
+  appName: "Melting Animals App",
   chains,
 });
 

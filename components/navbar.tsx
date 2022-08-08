@@ -19,13 +19,15 @@ import { Image } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
+    
     <Flex align="center" justify={"space-between"}>
       <Image
         borderRadius="full"
         boxSize="80px"
-        src="0.png"
+        src="logo.png"
         alt="logo"
         display={{ base: "none", md: "flex" }}
+        
       />
       <Box display={{ base: "flex", md: "none" }}>
         <Menu>
@@ -74,7 +76,8 @@ const Navbar = () => {
           </Button>
         </Link>
       </HStack>
-      <HStack spacing="15px">
+      <HStack 
+      spacing="15px">
         <Button as={ConnectButton}>
           Connect Wallet
         </Button>

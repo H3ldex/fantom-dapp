@@ -13,26 +13,17 @@ const About = () => {
           </Box>
           <Box
           mt='6'>
-          <Text>Lorem ipsum dolor sit amet,
-               consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                 sunt in culpa qui officia deserunt mollit anim id est laborum. </Text>
+          <Text>. </Text>
                  <br></br>
-                 <Text>Lorem ipsum dolor sit amet,
-               consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                 sunt in culpa qui officia deserunt mollit anim id est laborum. </Text>
+                 <Text> Hi, my name is Beca I am the creator of the Melting animal collection that will be your new favorite collection on Fantom.
+                  I am a psychology student, but my passion has been painting and drawing since I was a little girl.
+                  Recently entered the world of NFTs and loved the concept, so I found it interesting to create my own collection.
+                  This collection is inspired by animals combined with my drawing style  </Text>
                  <br></br>
-                 <Text>Lorem ipsum dolor sit amet,
-               consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                 sunt in culpa qui officia deserunt mollit anim id est laborum. </Text>
+                 <Text> First, I had to find a theme for the collection after a long debate of ideas with my partner H3ldex,
+                        We thought that Animals would be a nice one to start because every animal is unique in its own way.
+                        Dont matter the size to own the respect and power in their territory!
+                        For the final product, I combined my drawing style with the animals.  </Text>
                  </Box>
        
         </div>

@@ -9,7 +9,7 @@ export const theme = extendTheme({
   config,
   colors: {
     brand: {
-      100: "#C3B1E1",
+      100: "#805AD5",
     },
   },
   fonts: {

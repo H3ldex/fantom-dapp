@@ -1,4 +1,4 @@
-import { ArrowDownIcon } from "@chakra-ui/icons";
+import { StarIcon } from "@chakra-ui/icons";
 import {
   Image,
   Container,
@@ -23,7 +23,7 @@ const Roadmap = () => {
           width="100%"
           objectFit="cover"
           py={10}
-          bgImage="url('https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80')"
+          bgImage="url('https://im.ge/i/F3sgMm')"
           bgPosition="center"
           mb={2}
         >
@@ -38,7 +38,7 @@ const Roadmap = () => {
               align="center"
             >
               {" "}
-              Roadmap
+              MELTING ANIMALS
             </Text>
             </Center>
             <div>
@@ -50,7 +50,7 @@ const Roadmap = () => {
                 align="center"
               >
                 {" "}
-                Enter roadmap here
+                ROADMAP 
               </Text>
             </div>
             <br></br>
@@ -62,23 +62,30 @@ const Roadmap = () => {
                 textAlign="center"
                 mb="15px"
               >
-                <Popovercomp buttonName="Phase 1" headerName="The .. Phase" text="enter phase 1"
+                <Popovercomp buttonName="Phase 1" headerName="The beginning of all" text="Discussion on the theme of the collection
+Adapting the selected theme to my drawing style
+Creation of backgrounds and variations for the animals"
                              left="10px" right="0px" />
-                <ArrowDownIcon fontSize={"30px"}/>
+                <StarIcon fontSize={"30px"}/>
                 <br></br>
-                <Popovercomp buttonName="Phase 2" headerName="The .. Phase" text="enter phase 2"
+                <Popovercomp buttonName="Phase 2" headerName="The circle of life" text="Creation of socials, Discord and Twitter
+                Design and Deploy Website"
                 left="10px" right="0px" />
-                <ArrowDownIcon fontSize={"30px"} />
+                <StarIcon fontSize={"30px"} />
                 <br></br>
-                <Popovercomp buttonName="Phase 3" headerName="The .. Phase" text="enter phase 3"
+                <Popovercomp buttonName="Phase 3" headerName="Welcome to the jungle" text="Creation of the Melting Animals community
+Releasing the Website
+List the Melting Animals collection on Paintswap and NFTkey"
                 left="10px" right="0px" />
-                <ArrowDownIcon fontSize={"30px"}/>
+                <StarIcon fontSize={"30px"}/>
                 <br></br>
-                <Popovercomp buttonName="Phase 4" headerName="The .. Phase" text="enter phase 4"
+                <Popovercomp buttonName="Phase 4" headerName="Kings of the jungle" text="Solling out all the Melting Animals
+                WL for the next project"
                 left="10px" right="0px" />
-                <ArrowDownIcon fontSize={"30px"}/>
+                <StarIcon fontSize={"30px"}/>
                 <br></br>
-                <Popovercomp buttonName="Phase 5" headerName="The .. Phase" text="enter phase 5"
+                <Popovercomp buttonName="Phase 5" headerName="The Legacy" text="Merchandize
+                New Project Reveal"
                 left="10px" right="0px" />
                 <br></br>
               </List>

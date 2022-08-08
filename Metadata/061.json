@@ -1,0 +1,13 @@
+{
+    "id": "061",
+    "name": "Melted 61",
+    "description": "Melting Animals is a collection of 304 unique NFT's unique digital collectibles living on the Fantom blockchain.",
+    "image": "https://bafybeidf5zxd7lddwa6rvgja5wxa6t36zo3osh63eocsey5h6j6kg3firu.ipfs.nftstorage.link/ipfs/bafybeibscpda5umndpf4wx4zpjjqxm2vrohbtekf5ihq5qbzljtztqh7ci?filename=61.png",
+    "attributes": [
+      { "trait_type": "Background Type", "value": "Trippy Lines" },
+      { "trait_type": "Background Color", "value": "Multi'color" },
+      { "trait_type": "Animal", "value": "Wolf" },
+      { "trait_type": "Animal Color", "value": "Rainbow" }
+    ],
+    "compiler": "Melting Animals Art Engine"
+  }

@@ -9,7 +9,7 @@ import {
   VisuallyHidden,
   Image
 } from '@chakra-ui/react';
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaDiscord, FaTwitter} from 'react-icons/fa';
 import { ReactNode } from 'react';
 
 const SocialButton = ({
@@ -23,7 +23,7 @@ const SocialButton = ({
 }) => {
   return (
     <chakra.button
-      bg='#C3B1E1'
+      bg='#E2E8F0'
       rounded={'full'}
       w={8}
       h={8}
@@ -35,7 +35,7 @@ const SocialButton = ({
       justifyContent={'center'}
       transition={'background 0.3s ease'}
       _hover={{
-        bg: useColorModeValue('blackAlpha.200', 'whiteAlpha.200'),
+        bg: useColorModeValue('purple.300', 'purple.300'), //colours of socials
       }}>
       <VisuallyHidden>{label}</VisuallyHidden>
       {children}
@@ -46,7 +46,7 @@ const SocialButton = ({
 export default function SmallWithLogoLeft() {
   return (
     <Box
-      bg='#CEBBED'
+      bg='#6B46C1'//bg do footer
       >
       <Container
         as={Stack}
@@ -65,14 +65,11 @@ export default function SmallWithLogoLeft() {
 
         <Text>© 2022 All rights reserved</Text>
         <Stack direction={'row'} spacing={6}>
-          <SocialButton label={'Twitter'} href={'#'}>
+          <SocialButton label={'Twitter'} href={'https://twitter.com/BecaLeonardo2'}>
             <FaTwitter />
           </SocialButton>
-          <SocialButton label={'YouTube'} href={'#'}>
-            <FaYoutube />
-          </SocialButton>
-          <SocialButton label={'Instagram'} href={'#'}>
-            <FaInstagram />
+          <SocialButton label={'Discord'} href={'https://discord.gg/jgRbZJd7us'}>
+            <FaDiscord />
           </SocialButton>
         </Stack>
       </Container>

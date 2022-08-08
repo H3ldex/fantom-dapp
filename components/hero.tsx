@@ -14,12 +14,14 @@ const Hero = () => {
         justifyContent='center'
         width='100%'
         objectFit='cover'
+        border="4px"
+        borderRadius="lg"
         py = {40}
-        bgImage="url('https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80')"
+        bgImage="url('https://i.ibb.co/9yLH4sF/Design-sem-nome-20.png')"
         bgPosition='center'
         mb={2}
         >
-      <Button _hover={{ bg: '#3a3b3c' }} justifyContent='end' leftIcon={<ArrowForwardIcon />} colorScheme='whiteAlpha' variant={'solid'}>Mint Here</Button>
+      <Button _hover={{ bg: '#805AD5' }} justifyContent='end' leftIcon={<ArrowForwardIcon />} colorScheme='whiteAlpha' variant={'solid'}>Mint Here</Button>
       </Box>
       </Stack>
       <Stack direction='row' h='5px' mt='2px'>

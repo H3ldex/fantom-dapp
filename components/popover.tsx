@@ -25,7 +25,7 @@ const Popovercomp = (props: popovervars) => {
     <Box mb="12px" mt="12px" mr={props.left} ml={props.right}> 
       <Popover>
         <PopoverTrigger>
-          <Button textColor={"black"}> {props.buttonName}</Button>
+        <Button textColor={"black"}> {props.buttonName}</Button>
         </PopoverTrigger>
         <PopoverContent>
           <PopoverArrow />

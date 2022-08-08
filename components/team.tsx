@@ -25,14 +25,18 @@ const Team = () => {
       justifyContent='center'
       alignItems={'center'}
       width='100%'
+      
+      
+      
+      
       >
         <Center>
-        <TeamImage url="6.png" altname='Team member1'/>
+        <TeamImage url="26.png" altname='Team member1'/>
       </Center>
       <Center
       fontWeight={'bold'}
       >
-      <text>Name of team member</text>
+      <text>Beca Leo</text>
       </Center>
       </Box>
 
@@ -43,6 +47,7 @@ const Team = () => {
       alignItems={'center'}
       width='100%'
       mb={'4'}
+      
       >
         <Center>
         <TeamImage url="7.png" altname='Team member2'/>
@@ -50,7 +55,7 @@ const Team = () => {
       <Center
       fontWeight={'bold'}
       >
-      <text>Name of team member</text>
+      <text>H3lDEX</text>
       </Center>
       </Box>
       </Stack>
